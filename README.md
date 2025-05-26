@@ -1,4 +1,4 @@
-# FLEX Management System – Semester Project (Spring 2023)
+# FLEX Management System 
 
 ## 📚 Overview
 
