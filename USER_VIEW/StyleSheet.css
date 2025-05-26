@@ -1,0 +1,548 @@
+﻿* {
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 0px;
+    margin-right: 0;
+    margin-top: 0;
+}
+
+body {
+    background: #dbe1e6;
+    overflow-x:hidden;
+
+}
+
+.BgBody {
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    font-family: Tahoma, Arial, sans-serif;
+    line-height: 1.6em;
+    background-image: url('../Images/bg.jpg');
+    background-size: cover;
+}
+
+
+
+#logo {
+    position: absolute;
+    display: flex;
+    float: left;
+    padding: 10px;
+    height: 55%;
+    margin-left: 15%;
+    margin-top: 5%;
+}
+
+
+#SubForm {
+    border: #00adef 2px solid;
+    background-color: rgba(0,0,0,.6);
+    color: #fff;
+    padding: 50px;
+    text-align: center;
+    width: 350px;
+    margin-top: 1.7%;
+    height: 465px;
+    position: relative;
+    left: 50%;
+    font-size: 17px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+    #SubForm h2 {
+        margin-bottom: 10px;
+        background: #00adef;
+        border: #fff 1px solid;
+        padding: 10px;
+        color: #fff;
+        
+    }
+
+    #SubForm select {
+        width: 90px;
+        padding: 4px;
+       
+
+        margin-bottom: 10px;
+    }
+
+
+
+    #SubForm input[type="text"] {
+        width: 96%;
+        padding: 5px 0px;
+        padding-left: 10px;
+    }
+
+    #SubForm input[type="password"] {
+        padding: 5px;
+        width: 74%;
+    }
+
+    #SubForm input[type="date"] {
+        padding: 5px;
+        margin-left: 0px;
+        padding-right: 20px;
+        
+        width: 62%;
+        margin-bottom: 10px;
+    }
+
+    #SubForm input[type="submit"] {
+        background-color: #00adef;
+        color: #fff;
+        font-size: 16px;
+        border: #fff 1px solid;
+        padding: 5px 15px;
+        margin-top: 20px;
+    }
+
+        #SubForm input[type="submit"]:hover {
+            background-color: #fff;
+            color: #000;
+        }
+
+    /*
+    #SubForm input#contact {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 80%;
+    }
+  */
+    #SubForm select#role {
+        width: 89%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 0px;
+        padding:5px;
+        padding-right:0px;
+        
+
+    }
+
+
+#logo1 {
+    position: relative;
+    height: 30%;
+    margin-top:100px;
+}
+
+    #logo1 img {
+        position: relative;
+        left: 38%;
+        width: 300px;
+    }
+
+
+#but {
+    width: 30%;
+    position: relative;
+    left: 34.3%;
+    top: 40%;
+    margin-top: 20px;
+    display: flex;
+    align-content:center;
+    justify-content: center;
+}
+
+    #but a {
+        padding: 15px;
+        width: 100px;
+        background-color: #00adef;
+        position: relative;
+        margin-left: 10px;
+        font-family: Arial;
+        font-size: 16px;
+        text-decoration:none;
+        color: #000;
+        text-align:center;
+        
+    }
+
+        #but a:hover {
+            background-color: #aacc3f;
+            color: #fff;
+        }
+
+
+#form2 input#loginPass, #form2 input#loginEmail {
+    width: 96%;
+    padding: 5px 10px;
+    font-size: 18px;
+    margin-bottom: 10px;
+    
+}
+
+#SubForm1 {
+    border: #00adef 2px solid;
+    background-color: rgba(0,0,0,.6);
+    color: #fff;
+    padding: 50px;
+    text-align: center;
+    width: 350px;
+    margin-top: 2%;
+    height: 280px;
+    position: relative;
+    left: 50%;
+    top: 80px;
+    font-size: 17px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    padding-top: 40px;
+    padding-bottom: 0px;
+}
+
+#SubForm1 h2 {
+    margin-bottom: 20px;
+    background: #00adef;
+    border: #fff 1px solid;
+    padding: 10px;
+
+    color: #fff;
+}
+
+#SubForm1 input[type="submit"] {
+    background-color: #00adef;
+    color: #fff;
+    font-size: 16px;
+    border: #fff 1px solid;
+    padding: 5px 15px;
+    margin-top: 10px;
+}
+
+#SubForm1 input[type="submit"]:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+#Form p {
+    position: absolute;
+    color: #fff;
+    margin-left: 57%;
+    margin-top: 1%;
+}
+
+ #Foo p{
+    position:absolute;
+    color: #fff;
+    margin-left: 57%;
+    margin-top: 8%;
+}
+
+
+#Foo p a , #Form p a {
+    text-decoration: underline;
+    color: #fff;
+}
+
+
+
+                                        /* USER HOME */
+
+.header, .nav, .home {
+    padding: 1rem;
+}
+
+.header {
+    grid-area: Header;
+    background: #fff;
+    height: 70px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    position:fixed;
+    top: 0;
+}
+
+.header img {
+    width: 175px;
+ }
+
+
+                                /* NAVIGATION: */
+.nav {
+    grid-area: nav;
+    background: #01247d;
+    grid-row: 2 / 10;
+    width: 10%;
+    min-height: 540px;
+    display: flex;
+    float: left;
+    flex-direction: column;
+    position: fixed;
+    height: 240px;
+    align-content: center;
+    justify-content:center;
+    text-align:center;
+    
+    top:100px;
+}
+
+    .nav p {
+        display: block;
+        color: #fff;
+        margin: 20px;
+        margin-left: 10px;
+        align-content:center;
+        justify-content:center;
+    }
+
+
+.nav p a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px;
+    display: flex;
+    font-size: 20px;
+    padding-top: 0px;
+    margin-top:0px;
+}
+
+.nav p img{
+    width:45px;
+    height:45px;
+    margin:0px 5px;
+}
+
+.nav p img:nth-child(2)
+{
+    margin: 15px;
+    color: #555;
+}
+
+
+
+.home {
+    grid-area: home;
+    background: #dbe1e6;
+    width: 85.2%;
+    display: flex;
+    flex-direction: column;
+    min-height: 540px;
+    margin-left: 14%;
+    margin-top: 100px;
+}
+
+.home #PersonalInformation, .home #UniversityInformation {
+    width: 90%;
+    height: 200px;
+    margin: 10px 40px;
+    background-color: #fff;
+}
+
+
+.home #GPA_Graph, .home #Attendance_Graph {
+    width: 90%;
+    height: 380px;
+    margin: 10px 40px;
+    background-color: #fff;
+}
+
+
+.title {
+    width: 100%;
+    height: 50px;
+    background-color: #01247d;
+}
+
+.title h2 {
+   color: #fff;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-size: 20px;
+   margin-left: 15px;
+   padding-top: 10px;
+}
+
+
+
+
+
+
+
+
+.PI {
+    
+    display:inline;
+}
+.PI #FormView1 {
+   
+    padding: 15px;
+    font-family: Arial;
+    margin: 3%;
+
+}
+
+
+.home #courses {
+    width: 90%;
+    min-height: 450px;
+    background-color: #fff;
+    margin: 20px 40px;
+    
+}
+
+    .home #courses #coursesName {
+        width: 100%;
+        height: 70px;
+        background-color: #01247d;
+        display:flex;
+    }
+
+    .home #courses #coursesName h2{
+        color: #fff;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 20px;
+        margin-left: 25px;
+        padding-top: 20px;
+    }
+
+
+                   /* MENU*/
+
+
+.ParentMenu,
+.ParentMenuHover {
+    width: 100px;
+    background-color: #fff;
+    color: #333;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+    margin-right: 5px;
+    padding: 5px;
+    margin-top: 10px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.ParentMenuHover {
+    background-color: #ccc;
+    color: #fff;
+}
+
+    
+
+
+
+
+
+.content {
+    padding: 10px;
+    font-size: 20px;
+    display:flex;
+    margin-top: 0px;
+    justify-content:space-evenly;
+    
+}
+
+.content2 {
+    padding: 20px;
+    font-size: 20px;
+    display: flex;
+    justify-content:space-around; 
+    padding-top:15px;   
+}
+
+.content3 {
+    padding: 20px;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 15px;
+    margin-right: 20px;
+}
+
+#cont3 {
+    padding: 20px;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 15px;
+    margin-right: 20px;
+}
+
+
+.Cmenu {
+    padding: 5px;
+    height: 64px;
+    display: flex;
+    margin-left: 50%;
+}
+
+#trcMenu {
+    padding: 5px;
+    height: 64px;
+    display: flex;
+    margin-left: 70%;
+}
+
+#fbhome {
+    grid-area: home;
+    background: #dbe1e6;
+    width: 85.2%;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin-left: 14%;
+    margin-top: 100px;
+}
+
+
+.custom-grid {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+    .custom-grid th {
+        background-color: #01247d;
+        border: 1px solid #01247d;
+        padding: 8px 40px;
+        color: #fff;
+    }
+
+    .custom-grid td {
+        border: 1px solid #01247d;
+        padding: 8px;
+    }
+
+.custom-grid tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.custom-grid tr:hover {
+    background-color: #e2e2e2;
+}
+
+
+
+.grid2 {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 15px;
+}
+
+    .grid2 th {
+        background-color: #01247d;
+        border: 1px solid #01247d;
+        padding: 8px 20px;
+        color: #fff;
+    }
+
+    .grid2 td {
+        border: 1px solid #01247d;
+        padding: 8px;
+    }
+
+    .grid2 tr:nth-child(even) {
+        background-color: #f9f9f9;
+    }
+
+    .grid2 tr:hover {
+        background-color: #e2e2e2;
+    }

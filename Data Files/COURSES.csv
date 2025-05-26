@@ -1,0 +1,81 @@
+"COURSE_ID						",SEMESTER_ID,CODE,NAME,CREDITS,TYPE,PREREQ
+1,1,CS1000,Introduction to ICT,3,Theory,NULL
+2,1,CS1001,Programming Fundamentals,3,Theory,NULL
+3,1,MT1000,Calculus & Analytical Geometry,3,Theory,NULL
+4,1,MG1000,Fundamentals of Management,3,Theory,NULL
+5,1,SS1000,English Composition & Comprehension,3,Theory,NULL
+6,1,SS1001,Pakistan Studies,3,Theory,NULL
+7,1,EE1000,Physics for Engineers,3,Theory,NULL
+8,1,CL1001,Programming Fundamentals - Lab,1,Lab,NULL
+9,1,CL1000,Introduction to ICT - Lab,1,Lab,NULL
+10,1,EE1000,Physics for Engineers  - Lab,1,Lab,NULL
+11,2,CS1002,Object Oriented Programming,3,Theory,CS1001
+12,2,EE1001,Digital Logic Design,3,Theory,CS1000
+13,2,MT1001,Differential Equations,3,Theory,MT1000
+14,2,SS1002,Islamic Studies,3,Theory,NULL
+15,2,SS1003,Communication & Presentation Skills,3,Theory,SS1000
+16,2,MG1002,Business Statistics,3,Theory,NULL
+17,2,NS1001,Linear Circuit Analysis,3,Theory,NULL
+18,2,CL1002,Object Oriented Programming - Lab,1,Lab,CS1001
+19,2,EL1001,Digital Logic Design - Lab,1,Lab,CS1000
+20,2,SL1003,Communication & Presentation Skills - Lab,1,Lab,SS1000
+21,3,CS1003,Data Structures,3,Theory,CS1002
+22,3,CS1004,Computer Org. and Assembly Language,3,Theory,CS1002
+23,3,EE1002,Electronic Devices & Circuits,3,Theory,EE1001
+24,3,MT1002,Linear Algebra,3,Theory,NULL
+25,3,MG1003,Microeconomics,3,Theory,NULL
+26,3,MG1004,Marketing Management,3,Theory,NULL
+27,3,MG1005,Psychology,3,Theory,NULL
+28,3,CL1003,Data Structures - Lab,1,Lab,CS1002
+29,3,CL1004,Computer Org. and Assembly Language - Lab,1,Lab,CS1002
+30,3,EL1002,Electronic Devices & Circuits - Lab,1,Lab,EE1001
+31,4,CS1005,Database Systems,3,Theory,CS1003
+32,4,CS1006,Operating Systems,3,Theory,CS1003
+33,4,CS1007,Design & Analysis of Algorithms,3,Theory,CS1003
+34,4,MT1003,Probability & Statistics,3,Theory,NULL
+35,4,MG1006,Macroeconomics,3,Theory,NULL
+36,4,MG1007,Business Finance,3,Theory,NULL
+37,4,EE1003,Signals & Systems,3,Theory,EE1002
+38,4,CL1005,Database Systems - Lab,1,Lab,CS1003
+39,4,CL1006,Operating Systems - Lab,1,Lab,CS1003
+40,4,EL1003,Signals & Systems - Lab,1,Lab,EE1002
+41,5,CS1008,Theory of Automata,3,Theory,CS1006
+42,5,CS1009,Computer Networks,3,Theory,NULL
+43,5,CS1010,Software Design and Analysis,3,Theory,NULL
+44,5,MG1008,Technical & Business Writing,3,Theory,NULL
+45,5,CS1011,Numerical Computing,3,Theory,CS1007
+46,5,MG1009,Human Resource Management,3,Theory,MG1000
+47,5,EE1004,µP Interfacing & Programming,3,Theory,EE1003
+48,5,CL1008,Theory of Automata - Lab,1,Lab,CS1006
+49,5,CL1009,Computer Networks - Lab,1,Lab,NULL
+50,5,EL1004,µP Interfacing & Programming - Lab,1,Lab,EE1003
+51,6,CS1012,Software Engineering,3,Theory,NULL
+52,6,CS1013,Parallel & Distributed Computing,3,Theory,CS1008
+53,6,CS1014,Artificial Intelligence,3,Theory,NULL
+54,6,MG1010,Financial Institutions & Markets,3,Theory,NULL
+55,6,EE1005,Engineering Economics,3,Theory,NULL
+56,6,CS1015,Digital Image Processing,3,Theory,NULL
+57,6,CS1016,Distributed Data Engineering,3,Theory,NULL
+58,6,CL1013,Parallel & Distributed Computing - Lab,1,Lab,CS1008
+59,6,CL1014,Artificial Intelligence - Lab,1,Lab,NULL
+60,6,CL1016,Distributed Data Engineering - Lab,1,Lab,NULL
+61,7,CS2000,Final Year Project-I,3,Theory,NULL
+62,7,CS2001,Information Security,3,Theory,NULL
+63,7,CS2002,Professional Practices,3,Theory,NULL
+64,7,EE2000,Engineering Management,3,Theory,NULL
+65,7,MG2000,Economy of Pakistan,3,Theory,NULL
+66,7,CS2003,DevOPs,3,Theory,NULL
+67,7,CS2004,MLOPs,3,Theory,NULL
+68,7,CS2005,Cloud Computing,3,Theory,NULL
+69,7,MG2001,Digital Marketing ,3,Theory,NULL
+70,7,MG2002,German Language ,3,Theory,NULL
+71,8,CS2006,Final Year Project-II,3,Theory,NULL
+72,8,MG2003,Business Ethics,3,Theory,NULL
+73,8,MG2004,Entrepreneurship,3,Theory,NULL
+74,8,MG2005,Technopreneurship (CS),3,Theory,NULL
+75,8,CS2007,Database Administration,3,Theory,NULL
+76,8,CS2008,Cloud Security,3,Theory,NULL
+77,8,CS2009,Web Programming,3,Theory,NULL
+78,8,CS2010,Data Mining,3,Theory,NULL
+79,8,CS2011,Deep Learning,3,Theory,NULL
+80,8,CS2012,Ethical Hacking Concepts and Practices,3,Theory,NULL
